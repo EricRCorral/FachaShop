@@ -177,9 +177,9 @@ function App() {
 
       <Components>
 
-        <BrowserRouter basename='/' >
+        <BrowserRouter>
 
-          <Routes basename='/'>
+          <Routes basename={process.env.PUBLIC_URL}>
 
             <Route path='/home' element={<Home articles={articles} navigate={navigate} addCart={addCart} />} />
             <Route path='/account' element={<Account user={user} setUser={setUser} />} />
