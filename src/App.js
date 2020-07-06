@@ -181,12 +181,12 @@ function App() {
 
           <Routes basename={process.env.PUBLIC_URL}>
 
-            <Route path={process.env.PUBLIC_URL} element={<Home articles={articles} navigate={navigate} addCart={addCart} />} />
-            <Route path={process.env.PUBLIC_URL + '/account'} element={<Account user={user} setUser={setUser} />} />
-            <Route path={process.env.PUBLIC_URL + '/search/:query'} element={<Search articles={articles} addCart={addCart} />} />
-            <Route path={process.env.PUBLIC_URL + '/search/'} element={<Search articles={articles} addCart={addCart} />} />
-            <Route path={process.env.PUBLIC_URL + '/article/:id'} element={<Article articles={articles} addCart={addCart} />} />
-            <Route path={process.env.PUBLIC_URL + '/cart'} element={<Cart articles={articles} cart={cart} setCart={setCart} dbUrl={dbUrl} />} />
+            <Route path='/' element={<Home articles={articles} navigate={navigate} addCart={addCart} />} />
+            <Route path='/account' element={<Account user={user} setUser={setUser} />} />
+            <Route path='/search/:query' element={<Search articles={articles} addCart={addCart} />} />
+            <Route path='/search/' element={<Search articles={articles} addCart={addCart} />} />
+            <Route path='/article/:id' element={<Article articles={articles} addCart={addCart} />} />
+            <Route path='/cart' element={<Cart articles={articles} cart={cart} setCart={setCart} dbUrl={dbUrl} />} />
 
           </Routes>
 

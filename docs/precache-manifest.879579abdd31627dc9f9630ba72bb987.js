@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdd81112f89e05cf958efd61151524bb",
+    "revision": "e5a4c13e8e0a2622378d1a066efa5d8a",
     "url": "/FachaShop/index.html"
   },
   {
-    "revision": "43d40e64c72bef4c9e55",
+    "revision": "c426c409a34bcb1439c4",
     "url": "/FachaShop/static/css/main.958182b8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FachaShop/static/js/2.cba3b28c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43d40e64c72bef4c9e55",
-    "url": "/FachaShop/static/js/main.193c05b7.chunk.js"
+    "revision": "c426c409a34bcb1439c4",
+    "url": "/FachaShop/static/js/main.f665d4dd.chunk.js"
   },
   {
     "revision": "3cf9347543c56570efbe",
