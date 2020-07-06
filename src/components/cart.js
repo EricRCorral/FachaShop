@@ -170,7 +170,7 @@ function Cart(props) {
   const [total, setTotal] = useState();
 
   function navigate(url) {
-    window.location.assign(`/article/${url}`)
+    window.location.assign(`/FachaShop/article/${url}`)
   }
 
   function deleteArticle(id) {

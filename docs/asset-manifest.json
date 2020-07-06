@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FachaShop/static/css/main.958182b8.chunk.css",
-    "main.js": "/FachaShop/static/js/main.d2f2d7be.chunk.js",
-    "main.js.map": "/FachaShop/static/js/main.d2f2d7be.chunk.js.map",
+    "main.js": "/FachaShop/static/js/main.e5a391ee.chunk.js",
+    "main.js.map": "/FachaShop/static/js/main.e5a391ee.chunk.js.map",
     "runtime-main.js": "/FachaShop/static/js/runtime-main.2bbe9664.js",
     "runtime-main.js.map": "/FachaShop/static/js/runtime-main.2bbe9664.js.map",
     "static/js/2.cba3b28c.chunk.js": "/FachaShop/static/js/2.cba3b28c.chunk.js",
     "static/js/2.cba3b28c.chunk.js.map": "/FachaShop/static/js/2.cba3b28c.chunk.js.map",
     "index.html": "/FachaShop/index.html",
-    "precache-manifest.b1f84b3d8df8acd0a398753a9f07629e.js": "/FachaShop/precache-manifest.b1f84b3d8df8acd0a398753a9f07629e.js",
+    "precache-manifest.05172b5cbc3e75c5e549b3652d645f26.js": "/FachaShop/precache-manifest.05172b5cbc3e75c5e549b3652d645f26.js",
     "service-worker.js": "/FachaShop/service-worker.js",
     "static/css/main.958182b8.chunk.css.map": "/FachaShop/static/css/main.958182b8.chunk.css.map",
     "static/js/2.cba3b28c.chunk.js.LICENSE.txt": "/FachaShop/static/js/2.cba3b28c.chunk.js.LICENSE.txt",
@@ -48,6 +48,6 @@
     "static/js/runtime-main.2bbe9664.js",
     "static/js/2.cba3b28c.chunk.js",
     "static/css/main.958182b8.chunk.css",
-    "static/js/main.d2f2d7be.chunk.js"
+    "static/js/main.e5a391ee.chunk.js"
   ]
 }
