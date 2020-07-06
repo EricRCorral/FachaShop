@@ -1,0 +1,313 @@
+import Art1 from '../assets/images/articles/gorro-celeste-mujer.jpg'
+import Art2 from '../assets/images/articles/campera-azul-capucha-hombre.jpg'
+import Art3 from '../assets/images/articles/pantalon-rosa-claro-ancho-mujer.jpg'
+import Art4 from '../assets/images/articles/campera-verde-gris-mujer.jpg'
+import Art5 from '../assets/images/articles/gorro-negro-hombre.jpg'
+import Art6 from '../assets/images/articles/remera-blanco-y-azul-hombre.jpg'
+import Art7 from '../assets/images/articles/campera-azul-capucha-mujer.jpg'
+import Art8 from '../assets/images/articles/campera-cuero-mujer.jpg'
+import Art9 from '../assets/images/articles/campera-jean-hombre.jpg'
+import Art10 from '../assets/images/articles/campera-jean-mujer.jpg'
+import Art11 from '../assets/images/articles/campera-marron-cuero-hombre.jpg'
+import Art12 from '../assets/images/articles/campera-negra-cuero-hombre.jpg'
+import Art13 from '../assets/images/articles/gorro-amarillo-hombre.jpg'
+import Art14 from '../assets/images/articles/gorro-blanco-mujer.jpg'
+import Art15 from '../assets/images/articles/gorro-gris-mujer.jpg'
+import Art16 from '../assets/images/articles/gorro-gris-oscuro-hombre.jpg'
+import Art17 from '../assets/images/articles/gorro-rojo-mujer.jpg'
+import Art18 from '../assets/images/articles/gorro-verde-oscuro-hombre.jpg'
+import Art19 from '../assets/images/articles/pantalon-azul-formal-hombre.jpg'
+import Art20 from '../assets/images/articles/pantalon-gris-oscuro-mujer.jpg'
+import Art21 from '../assets/images/articles/pantalon-hombre-jean.jpg'
+import Art22 from '../assets/images/articles/pantalon-jean-ancho-mujer.jpg'
+import Art23 from '../assets/images/articles/pantalon-verde-hombre.jpg'
+import Art24 from '../assets/images/articles/remera-amarilla-hombre.jpg'
+import Art25 from '../assets/images/articles/remera-azul-mujer.jpg'
+import Art26 from '../assets/images/articles/remera-naranja-mujer.jpg'
+import Art27 from '../assets/images/articles/remera-verde-hombre.jpg'
+import Art28 from '../assets/images/articles/remera-verde-mujer.jpg'
+
+const articles = [
+    {
+      id: 'gorro-celeste-mujer',
+      tags: 'gorro-gorros-celeste-mujer-mujeres',
+      name: 'Gorro celeste de mujer',
+      gender: 'Mujer',
+      type: 'Gorro',
+      price: 600,
+      img: Art1,
+      discount: false,
+    },
+    {
+      id: 'campera-azul-capucha-hombre',
+      tags: 'campera-camperas-azul-capucha-hombre-hombres',
+      name: 'Campera azul con capucha de hombre',
+      gender: 'Hombre',
+      type: 'Campera',
+      price: 3000,
+      img: Art2,
+      discount: false,
+    },
+    {
+      id: 'pantalon-rosa-claro-ancho-mujer',
+      tags: 'pantalon-pantalones-rosa-claro-ancho-mujer-mujeres',
+      name: 'Pantalon rosa claro ancho de mujer',
+      gender: 'Mujer',
+      type: 'Pantalon',
+      price: 1800,
+      img: Art3,
+      discount: false,
+    },
+    {
+      id: 'campera-verde-gris-mujer',
+      tags: 'campera-camperas-verde-gris-mujer-mujeres',
+      name: 'Campera verde/gris de mujer',
+      gender: 'Mujer',
+      type: 'Campera',
+      price: 3500,
+      img: Art4,
+      discount: false,
+    },
+    {
+      id: 'gorro-negro-hombre',
+      tags: 'gorro-gorros-negro-hombre-hombres',
+      name: 'Gorro negro de hombre',
+      gender: 'Hombre',
+      type: 'Gorro',
+      price: 350,
+      img: Art5,
+      discount: false,
+    },
+    {
+      id: 'remera-blanco-y-azul-hombre',
+      tags: 'remera-remeras-blanco-azul-hombre-hombres-oferta-ofertas',
+      name: 'Remera blanca/azul rayada hombre',
+      gender: 'Hombre',
+      type: 'Remera',
+      price: 400,
+      img: Art6,
+      discount: true,
+    },
+    {
+      id: 'campera-azul-capucha-mujer',
+      tags: 'campera-camperas-azul-capucha-mujer-mujeres-oferta-ofertas',
+      name: 'Campera azul con capucha de mujer',
+      gender: 'Mujer',
+      type: 'Campera',
+      price: 1600,
+      img: Art7,
+      discount: true,
+    },
+    {
+      id: 'campera-cuero-mujer',
+      tags: 'campera-camperas-cuero-mujer-mujeres-oferta-ofertas',
+      name: 'Campera de cuero de mujer',
+      gender: 'Mujer',
+      type: 'Campera',
+      price: 5300,
+      img: Art8,
+      discount: true,
+    },
+    {
+      id: 'campera-jean-hombre',
+      tags: 'campera-camperas-jean-hombre-hombres',
+      name: 'Campera de jean de hombre',
+      gender: 'Hombre',
+      type: 'Campera',
+      price: 2400,
+      img: Art9,
+      discount: false,
+    },
+    {
+      id: 'campera-jean-mujer',
+      tags: 'campera-camperas-jean-mujer-mujeres',
+      name: 'Campera de jean de mujer',
+      gender: 'Mujer',
+      type: 'Campera',
+      price: 2400,
+      img: Art10,
+      discount: false,
+    },
+    {
+      id: 'campera-marron-cuero-hombre',
+      tags: 'campera-camperas-marron-cuero-hombre-hombres',
+      name: 'Campera marrón de cuero de hombre',
+      gender: 'Hombre',
+      type: 'Campera',
+      price: 6000,
+      img: Art11,
+      discount: false,
+    },
+    {
+      id: 'campera-negra-cuero-hombre',
+      tags: 'campera-camperas-negra-cuero-hombre-hombres-ofertas-oferta',
+      name: 'Campera negra de cuero de hombre',
+      gender: 'Hombre',
+      type: 'Campera',
+      price: 4600,
+      img: Art12,
+      discount: true,
+    },
+    {
+      id: 'gorro-amarillo-hombre',
+      tags: 'gorro-gorros-amarillo-hombre-hombres-oferta-ofertas',
+      name: 'Gorro amarillo de hombre',
+      gender: 'Hombre',
+      type: 'Gorro',
+      price: 300,
+      img: Art13,
+      discount: true,
+    },
+    {
+      id: 'gorro-blanco-mujer',
+      tags: 'gorro-gorros-blanco-mujer-mujeres',
+      name: 'Gorro blanco de mujer',
+      gender: 'Mujer',
+      type: 'Gorro',
+      price: 350,
+      img: Art14,
+      discount: false,
+    },
+    {
+      id: 'gorro-gris-mujer',
+      tags: 'gorro-gorros-gris-mujer-mujeres',
+      name: 'Gorro gris de mujer',
+      gender: 'Mujer',
+      type: 'Gorro',
+      price: 500,
+      img: Art15,
+      discount: false,
+    },
+    {
+      id: 'gorro-gris-oscuro-hombre',
+      tags: 'gorro-gorros-gris-oscuro-hombre-hombres-oferta-ofertas',
+      name: 'Gorro gris oscuro de hombre',
+      gender: 'Hombre',
+      type: 'Gorro',
+      price: 450,
+      img: Art16,
+      discount: true,
+    },
+    {
+      id: 'gorro-rojo-mujer',
+      tags: 'gorro-gorros-rojo-mujer-mujeres',
+      name: 'Gorro rojo de mujer',
+      gender: 'Mujer',
+      type: 'Gorro',
+      price: 700,
+      img: Art17,
+      discount: false,
+    },
+    {
+      id: 'gorro-verde-oscuro-hombre',
+      tags: 'gorro-gorros-verde-oscuro-hombre-hombres',
+      name: 'Gorro verde oscuro de hombre',
+      gender: 'Hombre',
+      type: 'Gorro',
+      price: 400,
+      img: Art18,
+      discount: false,
+    },
+    {
+      id: 'pantalon-azul-formal-hombre',
+      tags: 'pantalon-pantalones-azul-formal-hombre-hombres',
+      name: 'Pantalon azul formal de hombre',
+      gender: 'Hombre',
+      type: 'Pantalon',
+      price: 3400,
+      img: Art19,
+      discount: false,
+    },
+    {
+      id: 'pantalon-gris-oscuro-mujer',
+      tags: 'pantalon-pantalones-gris-oscuro-mujer-mujeres-oferta-ofertas',
+      name: 'Pantalon gris oscuro de mujer',
+      gender: 'Mujer',
+      type: 'Pantalon',
+      price: 1700,
+      img: Art20,
+      discount: true,
+    },
+    {
+      id: 'pantalon-hombre-jean',
+      tags: 'pantalon-pantalones-hombre-jean-hombres-oferta-ofertas',
+      name: 'Pantalon jean de hombre',
+      gender: 'Hombre',
+      type: 'Pantalon',
+      price: 1400,
+      img: Art21,
+      discount: true,
+    },
+    {
+      id: 'pantalon-jean-ancho-mujer',
+      tags: 'pantalon-pantalones-jean-ancho-mujer-mujeres',
+      name: 'Pantalon jean ancho de mujer',
+      gender: 'Mujer',
+      type: 'Pantalon',
+      price: 1500,
+      img: Art22,
+      discount: false,
+    },
+    {
+      id: 'pantalon-verde-hombre',
+      tags: 'pantalon-pantalones-verde-hombre-hombres',
+      name: 'Pantalon verde de hombre',
+      gender: 'Hombre',
+      type: 'Pantalon',
+      price: 2000,
+      img: Art23,
+      discount: false,
+    },
+    {
+      id: 'remera-amarilla-hombre',
+      tags: 'remera-remeras-amarilla-hombre-hombres',
+      name: 'Remera amarilla de hombre',
+      gender: 'Hombre',
+      type: 'Remera',
+      price: 400,
+      img: Art24,
+      discount: true,
+    },
+    {
+      id: 'remera-azul-mujer',
+      tags: 'remera-remeras-azul-mujer-mujeres',
+      name: 'Remera azul de mujer',
+      gender: 'Mujer',
+      type: 'Remera',
+      price: 600,
+      img: Art25,
+      discount: false,
+    },
+    {
+      id: 'remera-naranja-mujer',
+      tags: 'remera-remeras-naranja-mujer-mujeres-oferta-ofertas',
+      name: 'Remera naranja de mujer',
+      gender: 'Mujer',
+      type: 'Remera',
+      price: 400,
+      img: Art26,
+      discount: true,
+    },
+    {
+      id: 'remera-verde-hombre',
+      tags: 'remera-remeras-verde-hombre-hombres-oferta-ofertas',
+      name: 'Remera verde de hombre',
+      gender: 'Hombre',
+      type: 'Remera',
+      price: 450,
+      img: Art27,
+      discount: true,
+    },
+    {
+      id: 'remera-verde-mujer',
+      tags: 'remera-remeras-verde-mujer-mujeres-oferta-ofertas',
+      name: 'Remera verde de mujer',
+      gender: 'Mujer',
+      type: 'Remera',
+      price: 450,
+      img: Art28,
+      discount: true,
+    },
+  ];
+
+export default articles;
