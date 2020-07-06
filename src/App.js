@@ -123,14 +123,14 @@ function App() {
 
       localStorage.setItem('filters', JSON.stringify(filter))
 
-      return window.location.assign('FachaShop/search/')
+      return window.location.assign('search/')
     }
 
     if (event.key === 'Enter') {
 
       const pathToTravel = event.target.value.match(/[a-z]*/gi).filter(item => item != '').join('-');
 
-      window.location.assign(`FachaShop/search/${pathToTravel}`)
+      window.location.assign(`search/${pathToTravel}`)
     }
 
   }
