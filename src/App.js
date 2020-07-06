@@ -182,11 +182,11 @@ function App() {
           <Routes basename={process.env.PUBLIC_URL}>
 
             <Route element={<Home articles={articles} navigate={navigate} addCart={addCart} />} />
-            <Route path='/account' element={<Account user={user} setUser={setUser} />} />
-            <Route path='/search/:query' element={<Search articles={articles} addCart={addCart} />} />
-            <Route path='/search/' element={<Search articles={articles} addCart={addCart} />} />
-            <Route path='/article/:id' element={<Article articles={articles} addCart={addCart} />} />
-            <Route path='/cart' element={<Cart articles={articles} cart={cart} setCart={setCart} dbUrl={dbUrl} />} />
+            <Route path='account' element={<Account user={user} setUser={setUser} />} />
+            <Route path='search/:query' element={<Search articles={articles} addCart={addCart} />} />
+            <Route path='search/' element={<Search articles={articles} addCart={addCart} />} />
+            <Route path='article/:id' element={<Article articles={articles} addCart={addCart} />} />
+            <Route path='cart' element={<Cart articles={articles} cart={cart} setCart={setCart} dbUrl={dbUrl} />} />
 
           </Routes>
 
