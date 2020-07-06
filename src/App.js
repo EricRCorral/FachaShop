@@ -177,9 +177,9 @@ function App() {
 
       <Components>
 
-        <BrowserRouter>
+        <BrowserRouter >
 
-          <Routes>
+          <Routes basename='https://ericrcorral.github.io/FachaShop/'>
 
             <Route path='/' element={<Home articles={articles} navigate={navigate} addCart={addCart} />} />
             <Route path='/account' element={<Account user={user} setUser={setUser} />} />
