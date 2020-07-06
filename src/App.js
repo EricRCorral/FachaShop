@@ -177,11 +177,11 @@ function App() {
 
       <Components>
 
-        <BrowserRouter basename='https://ericrcorral.github.io/FachaShop' >
+        <BrowserRouter basename='/' >
 
-          <Routes>
+          <Routes basename='/'>
 
-            <Route path='/' element={<Home articles={articles} navigate={navigate} addCart={addCart} />} />
+            <Route path='/home' element={<Home articles={articles} navigate={navigate} addCart={addCart} />} />
             <Route path='/account' element={<Account user={user} setUser={setUser} />} />
             <Route path='/search/:query' element={<Search articles={articles} addCart={addCart} />} />
             <Route path='/search/' element={<Search articles={articles} addCart={addCart} />} />
