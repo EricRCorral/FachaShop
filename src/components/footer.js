@@ -123,42 +123,42 @@ function Footer() {
 
       <FooterRow>
 
-          <FooterCol>
+        <FooterCol>
 
-            <FooterTitles>¡Suscribite y recibí increibles descuentos en nuestros productos facheros!</FooterTitles>
+          <FooterTitles>¡Suscribite y recibí increibles descuentos en nuestros productos facheros!</FooterTitles>
 
-            <Newsletter>
+          <Newsletter>
 
-              <NewsletterInput placeholder='Email'/>
+            <NewsletterInput placeholder='Email' />
 
-              <NewsletterBtn href=''>Suscribirse</NewsletterBtn>
+            <NewsletterBtn href='FachaShop'>Suscribirse</NewsletterBtn>
 
-            </Newsletter>
+          </Newsletter>
 
-          </FooterCol>
+        </FooterCol>
 
-          <FooterCol>
+        <FooterCol>
 
-            <FooterTitles>Nuestras redes</FooterTitles>
+          <FooterTitles>Nuestras redes</FooterTitles>
 
-            <SocialNetwork href='' className='fab fa-instagram fa-2x'></SocialNetwork>
-            <SocialNetwork href='' className='fab fa-twitter fa-2x'></SocialNetwork>
-            <SocialNetwork href='' className='fab fa-facebook fa-2x'></SocialNetwork>
+          <SocialNetwork href='FachaShop' className='fab fa-instagram fa-2x'></SocialNetwork>
+          <SocialNetwork href='FachaShop' className='fab fa-twitter fa-2x'></SocialNetwork>
+          <SocialNetwork href='FachaShop' className='fab fa-facebook fa-2x'></SocialNetwork>
 
-          </FooterCol>
+        </FooterCol>
 
-          <FooterCol>
+        <FooterCol>
 
-            <FooterTitles>Sobre nosotros</FooterTitles>
+          <FooterTitles>Sobre nosotros</FooterTitles>
 
-            <FooterLinks href=''>Quienes somos</FooterLinks>
-            <FooterLinks href=''>Trabaja con nosotros</FooterLinks>
-            <FooterLinks href=''>Contacto</FooterLinks>
-            
-            <FooterDev>
-              Desarrollado con <i className='fas fa-code'></i> y <i className='fas fa-heart'></i> por Eric Corral
+          <FooterLinks href='FachaShop'>Quienes somos</FooterLinks>
+          <FooterLinks href='FachaShop'>Trabaja con nosotros</FooterLinks>
+          <FooterLinks href='FachaShop'>Contacto</FooterLinks>
+
+          <FooterDev>
+            Desarrollado con <i className='fas fa-code'></i> y <i className='fas fa-heart'></i> por Eric Corral
             </FooterDev>
-          </FooterCol>
+        </FooterCol>
 
       </FooterRow>
 

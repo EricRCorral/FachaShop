@@ -190,7 +190,7 @@ function Navbar(props) {
 
           <SidenavLink onClick={account}>{(props.user !== null) ? 'Salir' : 'Entrar/Crear'}</SidenavLink>
 
-          <SidenavLink href="/cart"><i className='fas fa-shopping-cart'></i><sup> {cartQuantity}</sup></SidenavLink>
+          <SidenavLink href="FachaShop/cart"><i className='fas fa-shopping-cart'></i><sup> {cartQuantity}</sup></SidenavLink>
 
           <Input placeholder='Buscar...' onKeyPress={(event) => props.navigate(undefined, event)} />
 
@@ -198,7 +198,7 @@ function Navbar(props) {
 
         <NavBox>
 
-          <Logo href=""><img src={logo} alt="FachaShop" /></Logo>
+          <Logo href="FachaShop"><img src={logo} alt="FachaShop" /></Logo>
 
         </NavBox>
 
@@ -214,7 +214,7 @@ function Navbar(props) {
 
             <Link onClick={account}>{(props.user !== null) ? 'Salir' : 'Entrar/Crear'}</Link>
 
-            <Link href="/cart"><i className='fas fa-shopping-cart'></i><sup> {cartQuantity}</sup></Link>
+            <Link href="FachaShop/cart"><i className='fas fa-shopping-cart'></i><sup> {cartQuantity}</sup></Link>
 
             <Input placeholder='Buscar...' onKeyPress={(event) => props.navigate(undefined, event)} />
 

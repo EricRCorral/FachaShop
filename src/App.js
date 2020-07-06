@@ -123,7 +123,7 @@ function App() {
 
       localStorage.setItem('filters', JSON.stringify(filter))
 
-      return window.location.assign('search/')
+      return window.location.assign('search')
     }
 
     if (event.key === 'Enter') {
