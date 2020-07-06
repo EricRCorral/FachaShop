@@ -114,6 +114,8 @@ line-height: 25px;
 const FilterDiv = styled.div`
 display: flex;
 flex-direction: row;
+
+
 align-items: center;
 `;
 
@@ -154,7 +156,7 @@ font-size: 32px;
 
 function navigate(url) {
 
-  window.location.assign(url);
+  window.location.assign(`/FachaShop/${url}`);
 }
 
 function Search(props) {
@@ -175,7 +177,7 @@ function Search(props) {
 
     let articlesFilteredB = [];
 
-    const PATHNAME = window.location.pathname.slice(8,).match(/[a-z]*/gi).filter(item => item !== '').join('-');
+    const PATHNAME = window.location.pathname.slice(18,).match(/[a-z]*/gi).filter(item => item !== '').join('-');
 
     let pathArr = PATHNAME.split('-');
 

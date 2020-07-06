@@ -125,7 +125,7 @@ function Article(props) {
   }
   `
 
-  const article = props.articles.filter(article => article.id === window.location.pathname.slice(9,))[0];
+  const article = props.articles.filter(article => article.id === window.location.pathname.slice(19,))[0];
 
   return (
 

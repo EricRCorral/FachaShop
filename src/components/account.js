@@ -124,7 +124,7 @@ function Account(props) {
           setError(undefined)
 
           setTimeout(() => {
-            window.location.assign('')
+            window.location.assign('/FachaShop')
           }, 500);
 
         } else {
@@ -154,7 +154,7 @@ function Account(props) {
           setError(undefined)
 
           setTimeout(() => {
-            window.location.assign('/')
+            window.location.assign('/FachaShop')
           }, 500);
 
         } else {
