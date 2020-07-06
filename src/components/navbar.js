@@ -113,7 +113,7 @@ function Navbar(props) {
   margin-right: auto;
   `
 
-  const [pathname, setPathname] = useState(window.location.pathname.slice(8,));
+  const [pathname, setPathname] = useState(window.location.pathname.slice(18,));
 
   const [cartQuantity, setCartQuantity] = useState();
 
