@@ -181,7 +181,7 @@ function App() {
 
           <Routes basename={process.env.PUBLIC_URL}>
 
-            <Route path='/' element={<Home articles={articles} navigate={navigate} addCart={addCart} />} />
+            <Route element={<Home articles={articles} navigate={navigate} addCart={addCart} />} />
             <Route path='/account' element={<Account user={user} setUser={setUser} />} />
             <Route path='/search/:query' element={<Search articles={articles} addCart={addCart} />} />
             <Route path='/search/' element={<Search articles={articles} addCart={addCart} />} />

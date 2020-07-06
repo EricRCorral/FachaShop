@@ -124,7 +124,7 @@ function Account(props) {
           setError(undefined)
 
           setTimeout(() => {
-            window.location.assign('/')
+            window.location.assign('')
           }, 500);
 
         } else {

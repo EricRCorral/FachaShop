@@ -131,7 +131,7 @@ function Footer() {
 
               <NewsletterInput placeholder='Email'/>
 
-              <NewsletterBtn href='#'>Suscribirse</NewsletterBtn>
+              <NewsletterBtn href=''>Suscribirse</NewsletterBtn>
 
             </Newsletter>
 
@@ -141,9 +141,9 @@ function Footer() {
 
             <FooterTitles>Nuestras redes</FooterTitles>
 
-            <SocialNetwork href='#' className='fab fa-instagram fa-2x'></SocialNetwork>
-            <SocialNetwork href='#' className='fab fa-twitter fa-2x'></SocialNetwork>
-            <SocialNetwork href='#' className='fab fa-facebook fa-2x'></SocialNetwork>
+            <SocialNetwork href='' className='fab fa-instagram fa-2x'></SocialNetwork>
+            <SocialNetwork href='' className='fab fa-twitter fa-2x'></SocialNetwork>
+            <SocialNetwork href='' className='fab fa-facebook fa-2x'></SocialNetwork>
 
           </FooterCol>
 
@@ -151,9 +151,9 @@ function Footer() {
 
             <FooterTitles>Sobre nosotros</FooterTitles>
 
-            <FooterLinks href='#'>Quienes somos</FooterLinks>
-            <FooterLinks href='#'>Trabaja con nosotros</FooterLinks>
-            <FooterLinks href='#'>Contacto</FooterLinks>
+            <FooterLinks href=''>Quienes somos</FooterLinks>
+            <FooterLinks href=''>Trabaja con nosotros</FooterLinks>
+            <FooterLinks href=''>Contacto</FooterLinks>
             
             <FooterDev>
               Desarrollado con <i className='fas fa-code'></i> y <i className='fas fa-heart'></i> por Eric Corral
