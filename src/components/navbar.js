@@ -198,7 +198,7 @@ function Navbar(props) {
 
         <NavBox>
 
-          <Logo href="/"><img src={logo} alt="FachaShop" /></Logo>
+          <Logo href=""><img src={logo} alt="FachaShop" /></Logo>
 
         </NavBox>
 
