@@ -298,11 +298,11 @@ function Home(props) {
 
           <SellerItem key={i}>
 
-            <a href={`/article/${item.id}`}><SellerImg src={item.img} /></a>
+            <a href={`/FachaShop/article/${item.id}`}><SellerImg src={item.img} /></a>
 
             <SellerDesc>
 
-              <SellerName><a href={`/article/${item.id}`} style={{color: 'black' , textDecoration: 'none'}}>{item.name}</a></SellerName>
+              <SellerName><a href={`/FachaShop/article/${item.id}`} style={{color: 'black' , textDecoration: 'none'}}>{item.name}</a></SellerName>
 
               <SellerPriceCart>
                 {(!item.discount) ? `$${item.price}` :

@@ -469,11 +469,11 @@ function Search(props) {
 
           <Col key={i}>
 
-            <ArticleImg onClick={() => navigate(`/article/${item.id}`)} src={item.img} />
+            <ArticleImg onClick={() => navigate(`article/${item.id}`)} src={item.img} />
 
             <ArticleDesc>
 
-              <ArticleName href={`/article/${item.id}`}>{item.name}</ArticleName>
+              <ArticleName href={`/FachaShop/article/${item.id}`}>{item.name}</ArticleName>
 
               <ArticlePrice>
 
