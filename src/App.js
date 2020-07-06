@@ -179,7 +179,7 @@ function App() {
 
         <BrowserRouter >
 
-          <Routes basename='https://ericrcorral.github.io/FachaShop/'>
+          <Routes basename='/'>
 
             <Route path='/' element={<Home articles={articles} navigate={navigate} addCart={addCart} />} />
             <Route path='/account' element={<Account user={user} setUser={setUser} />} />
